@@ -15,6 +15,7 @@ go
 ```
 
 3. Then run the app and check the logs, you will find the company name inserted into the table company and then retrieved in arabic.
+(note the file src/main/resources/schema.sql it the explicit definition of the `company` table)
 
 4. After running the app, you can use this query to see the sql server parameter binding for latest statements:
 

@@ -1,6 +1,5 @@
 create table company
 (
-    id   bigint identity,
+    id   bigint primary key identity,
     name varchar(255)
-)
-go
+);
