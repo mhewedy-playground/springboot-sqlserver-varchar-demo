@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    database: sql_server
+    hibernate:
+      ddl-auto: update
+  datasource:
+    username: sa
+    password: yourStrong(!)Password
+    url: jdbc:sqlserver://localhost:1433;DatabaseName=mydb;sendStringParametersAsUnicode=false
+logging:
+  level:
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type: TRACE
