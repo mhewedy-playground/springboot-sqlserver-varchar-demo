@@ -27,4 +27,5 @@ where lower(s2.text) like '%company%'
 ORDER BY last_execution_time DESC;
 ```
 
-it query will show that, the parameters is bound as `varchar(8000)` instead of `nvarchar(8000)`
+it query will show that, the parameters is bound as `varchar(8000)` instead of `nvarchar(8000)` 
+(this is because of the parameter `sendStringParametersAsUnicode=false` sent to the db server)
